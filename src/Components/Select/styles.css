@@ -1,0 +1,14 @@
+.container{
+    text-align: left;
+    display: flex;
+}
+
+.label{
+    text-align: left;
+    width: 85%;
+}
+
+.select{
+    width: 80%;
+    height: 35px;
+}
