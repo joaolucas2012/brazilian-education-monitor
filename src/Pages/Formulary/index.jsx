@@ -4,6 +4,7 @@ import './styles.css';
 
 import Input from '../../Components/Input';
 import Select from '../../Components/Select';
+import Button from '../../Components/Button';
 import Container from '../../Components/Container';
 
 const Formulary = () => {
@@ -28,6 +29,7 @@ const Formulary = () => {
           <Input text="12.Link do currículo Lattes do coordenador do curso *" />
           <Input text="13.E-mail do coordenador do curso *" />
           <Input text="14.Informe o número total de alunos matriculados no curso no ano de 2020. *" />
+          <Button title="Avançar" />
         </Container>
     );
 };
