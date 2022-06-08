@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 const Header = styled.div`
-    width: 85%;
+    width: 90%;
     margin: 30px;
     font-family: sans-serif;
+    padding-left: 2vw;
 `;
 
 const Title = styled.h2`
@@ -15,9 +16,13 @@ const Title = styled.h2`
 `;
 
 const P = styled.p`
-    width: 85%;
+    width: 100%;
     margin-top: 12px;
     font-size: 0.9em;
+
+    @media(min-width: 768px){
+        width: 100%;
+    }
 `;
 
 export { Header, Title, P };

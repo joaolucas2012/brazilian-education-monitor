@@ -15,8 +15,16 @@ const StyledLabel = styled.label`
 `;  
 
 const StyledSelect = styled.select`
-    width: 80%;
+    width: 95%;
     height: 35px;
+
+    @media(min-width: 1024px){
+        width: 90%;
+    }
+
+    @media(min-width: 1440px){
+        width: 80%;   
+    }
 `;
 
 export { StyledContainer, StyledLabel, StyledSelect };

@@ -12,12 +12,28 @@ const StyledContainer = styled.div`
 
 const StyledLabel = styled.label`
     text-align: left;
-    width: 85%;
+    width: 100%;
+
+    @media(min-width: 1024px){
+        width: 90%;  
+    }
+
+    @media(min-width: 1440px){
+        width: 80%;   
+    }
 `;
     
 const StyledInput = styled.input`
-    width: 80%;
+    width: 100%;
     height: 35px;
+
+    @media(min-width: 1024px){
+        width: 90%;
+    }
+
+    @media(min-width: 1440px){
+        width: 80%;   
+    }
 `;
 
 export{ StyledContainer, StyledLabel, StyledInput};

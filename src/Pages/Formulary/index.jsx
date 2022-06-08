@@ -4,11 +4,11 @@ import { Header, Title, P } from './styles';
 import Input from '../../Components/Input';
 import Select from '../../Components/Select';
 import Button from '../../Components/Button';
-import Container from '../../Components/Container';
+import Card from '../../Components/Card';
 
 const Formulary = () => {
     return (
-        <Container>
+        <Card>
           <Header>
             <P>* Obrigatória</P>
             <Title>Informações Cadastrais</Title>
@@ -29,7 +29,7 @@ const Formulary = () => {
           <Input text="13.E-mail do coordenador do curso *" />
           <Input text="14.Informe o número total de alunos matriculados no curso no ano de 2020. *" />
           <Button title="Avançar" />
-        </Container>
+        </Card>
     );
 };
 
