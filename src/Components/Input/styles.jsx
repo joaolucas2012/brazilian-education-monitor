@@ -13,6 +13,8 @@ const StyledContainer = styled.div`
 const StyledLabel = styled.label`
     text-align: left;
     width: 100%;
+    font-size: 0.9em;
+    font-family: sans-serif;
 
     @media(min-width: 1024px){
         width: 90%;  

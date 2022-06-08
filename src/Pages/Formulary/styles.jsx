@@ -11,14 +11,16 @@ const Title = styled.h2`
     width: 85%;
     margin-top: 12px;
     color: #07508e;
-    font-size: 1em;
+    font-size: 16px;
+    font-family: sans-serif;
     line-height: 30px;
 `;
 
 const P = styled.p`
     width: 100%;
     margin-top: 12px;
-    font-size: 0.9em;
+    font-size: 15px;
+    font-family: sans-serif;
 
     @media(min-width: 768px){
         width: 100%;
