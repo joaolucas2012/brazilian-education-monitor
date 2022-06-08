@@ -11,16 +11,23 @@ const StyledContainer = styled.div`
 `;
 
 const StyledLabel = styled.label`
-    text-align: left;
+    text-align: center;
     width: 100%;
     font-size: 14px;
     font-family: sans-serif;
 
+    @media(min-width: 768px){
+        text-align: justify;
+        width: 90%;  
+    }
+
     @media(min-width: 1024px){
+        text-align: justify;
         width: 90%;  
     }
 
     @media(min-width: 1440px){
+        text-align: left;
         width: 80%;   
     }
 `;

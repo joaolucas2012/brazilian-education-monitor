@@ -10,16 +10,31 @@ const StyledContainer = styled.div`
 `;
 
 const StyledLabel = styled.label`
-    text-align: left;
+    text-align: center;
     width: 100%;
     font-size: 0.9em;
     font-family: sans-serif;
+
+    @media(min-width: 768px){
+        text-align: justify;
+        width: 90%;  
+    }
+
+    @media(min-width: 1024px){
+        text-align: left;
+        width: 90%;  
+    }
+
+    @media(min-width: 1440px){
+        text-align: left;
+        width: 80%;   
+    }
 `;  
 
 const StyledSelect = styled.select`
     width: 95%;
     height: 35px;
-
+    
     @media(min-width: 1024px){
         width: 90%;
     }

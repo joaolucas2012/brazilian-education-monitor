@@ -19,6 +19,7 @@ const Title = styled.h2`
 const P = styled.p`
     width: 100%;
     margin-top: 12px;
+    text-align: justify;
     font-size: 15px;
     font-family: sans-serif;
 
