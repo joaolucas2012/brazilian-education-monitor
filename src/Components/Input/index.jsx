@@ -1,18 +1,15 @@
 import React from "react";
 
-import './styles.css';
+import{ StyledContainer, StyledLabel, StyledInput } from './styles';
 
 const Input = ({text}) =>{
     return(
-        <div className="container">
-            <label
-                className="label"
-            >{text}</label><br/>
-            <input
-                className="input" 
+        <StyledContainer>
+            <StyledLabel>{text}</StyledLabel><br/>
+            <StyledInput
                 placeholder="Insira sua resposta"
             /><br/>
-        </div>
+        </StyledContainer>
     );
 };
 

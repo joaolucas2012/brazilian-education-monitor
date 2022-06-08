@@ -1,6 +1,5 @@
 import React from 'react';
-
-import './styles.css';
+import { Header, Title, P } from './styles';
 
 import Input from '../../Components/Input';
 import Select from '../../Components/Select';
@@ -10,11 +9,11 @@ import Container from '../../Components/Container';
 const Formulary = () => {
     return (
         <Container>
-          <div className="form-header">
-            <p className="obligation">* Obrigatória</p>
-            <h2 className="title">Informações Cadastrais</h2>
-            <p className="obligation">Nesta seção, vamos abordar questões para conhecer melhor o curso e a coordenação.</p>
-          </div>
+          <Header>
+            <P>* Obrigatória</P>
+            <Title>Informações Cadastrais</Title>
+            <P>Nesta seção, vamos abordar questões para conhecer melhor o curso e a coordenação.</P>
+          </Header>
           <Input text="1.Nome da Instituição de Ensino Superior (por extenso e sigla) *" />
           <Input text="2.Cidade onde se localiza o campus *" />
           <Select text="3.Estado onde o campus se localiza *" />

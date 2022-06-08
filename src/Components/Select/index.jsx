@@ -1,14 +1,12 @@
 import React from 'react';
 
-import './styles.css';
+import { StyledContainer, StyledLabel, StyledSelect } from './styled';
 
 const Select = ({text}) => {
     return(
-        <div className="container">
-            <label
-                className="label"
-            >{text}</label><br/>
-            <select className="select" name="estados-brasil">
+        <StyledContainer>
+            <StyledLabel>{text}</StyledLabel><br/>
+            <StyledSelect>
                 <option value="" disabled selected hidden>Selecione sua resposta</option>
                 <option value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
@@ -37,8 +35,8 @@ const Select = ({text}) => {
                 <option value="SP">São Paulo</option>
                 <option value="SE">Sergipe</option>
                 <option value="TO">Tocantins</option>
-            </select><br/>
-        </div>
+            </StyledSelect><br/>
+        </StyledContainer>
     );
 };
  

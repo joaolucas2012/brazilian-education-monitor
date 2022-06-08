@@ -1,14 +1,14 @@
 import React from 'react';
 
-import './styles.css';
+import { ButtonContainer, StyledButton } from './styles';
 
 const Button = ({title}) => {
     return ( 
-        <div className="btn-container">
-            <button className="button">
+        <ButtonContainer>
+            <StyledButton>
                 {title}
-            </button>
-        </div>
+            </StyledButton>
+        </ButtonContainer>
     );
 };
  

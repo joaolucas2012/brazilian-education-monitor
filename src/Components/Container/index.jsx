@@ -1,13 +1,13 @@
 import React from 'react';
-import './styles.css';
+import{ StyledContainer, Card } from './styles';
 
 const Container = (props) => {
     return(
-        <div className="wrapper">
-            <div className="container">
+        <StyledContainer>
+            <Card>
                 {props.children}
-            </div>
-        </div>
+            </Card>
+        </StyledContainer>
     );
 };
 
