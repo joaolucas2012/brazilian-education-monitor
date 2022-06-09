@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+const Form = styled.form`
+    width: 100%;
+    margin-right: 30px;
+    align-items: left;
+`;
+
 const Header = styled.div`
     width: 100%;
     margin: 30px;
@@ -94,4 +100,4 @@ const StyledSelect = styled.select`
     }
 `;
 
-export { Header, Title, P, StyledContainer, StyledLabel, StyledSelect };
+export { Form, Header, Title, P, StyledContainer, StyledLabel, StyledSelect };

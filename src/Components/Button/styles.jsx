@@ -4,6 +4,7 @@ const ButtonContainer = styled.div`
     display: flex;
     align-items: left;
     width: 100%;
+    margin-left: 15px;
 `;
 
 const StyledButton = styled.button`
