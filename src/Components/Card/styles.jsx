@@ -10,7 +10,7 @@ const StyledContainer = styled.div`
     padding-bottom: 0.5vh;
 
     @media(min-width: 768px){
-        width: 100vw;
+        width: 100%;
         padding-top: 1vh;
         padding-bottom: 1vh;   
     }
@@ -24,19 +24,18 @@ const Card = styled.div`
     height: 100%;
     width: 100%;
     background-color: white;
-    padding-bottom: 30px;
 
     @media(min-width: 320px){
-        padding: 0 5vw;
+        padding: 5vh 4vw;
     }
 
     @media(min-width: 768px){
-        padding-left: 6.5vw;
+        padding: 0 5vw;
     }
 
     @media(min-width: 1024px){
         width: 60vw;    
-        padding-left: 6.5vw;
+        padding: 3vh 5vw;
     }
 
     @media(min-width: 1440px){

@@ -68,7 +68,6 @@ const StyledInput = styled.input`
 
     @media(min-width: 2560px){
         height: 70px;
-        width: 90%;
     }
 `;
 
