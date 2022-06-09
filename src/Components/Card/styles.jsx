@@ -22,20 +22,25 @@ const Card = styled.div`
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 100vw;
+    width: 100%;
     background-color: white;
+    padding-bottom: 30px;
+
+    @media(min-width: 320px){
+        padding: 0 5vw;
+    }
 
     @media(min-width: 768px){
         padding-left: 6.5vw;
     }
 
     @media(min-width: 1024px){
-        width: 80vw;    
+        width: 60vw;    
         padding-left: 6.5vw;
     }
 
     @media(min-width: 1440px){
-        width: 70vw;    
+        width: 60vw;    
         padding-left: 9vw;
     }
 `;

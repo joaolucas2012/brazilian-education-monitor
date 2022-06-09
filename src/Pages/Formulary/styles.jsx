@@ -1,19 +1,25 @@
 import styled from 'styled-components';
 
 const Header = styled.div`
-    width: 90%;
+    width: 100%;
     margin: 30px;
     font-family: sans-serif;
-    padding-left: 2vw;
+    color: #6e6e6e;
 `;
 
 const Title = styled.h2`
     width: 85%;
     margin-top: 12px;
     color: #07508e;
-    font-size: 16px;
-    font-family: sans-serif;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: normal;
     line-height: 30px;
+
+    @media(min-width: 2560px){
+        font-size: 32px;
+        line-height: 70px;
+    }
 `;
 
 const P = styled.p`
@@ -25,6 +31,10 @@ const P = styled.p`
 
     @media(min-width: 768px){
         width: 100%;
+    }
+
+    @media(min-width: 2560px){
+        font-size: 30px;
     }
 `;
 
