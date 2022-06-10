@@ -44,6 +44,24 @@ const P = styled.p`
     }
 `;
 
+const RedP = styled.p`
+    color: red;
+    width: 100%;
+    text-align: justify;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 30px;
+`;
+
+const GreenP = styled.p`
+    color: green;
+    width: 100%;
+    text-align: justify;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 15px;
+`;
+
 const StyledContainer = styled.div`
     text-align: left;
     align-items: left;
@@ -100,4 +118,4 @@ const StyledSelect = styled.select`
     }
 `;
 
-export { Form, Header, Title, P, StyledContainer, StyledLabel, StyledSelect };
+export { Form, Header, Title, P, RedP, GreenP, StyledContainer, StyledLabel, StyledSelect };
