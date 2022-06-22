@@ -44,4 +44,4 @@ const Card = styled.div`
     }
 `;
 
-export{ StyledContainer, Card};
+export{ StyledContainer, Card };
